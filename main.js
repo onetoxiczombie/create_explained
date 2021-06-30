@@ -23,6 +23,9 @@ client.on('message', message => {
     const command = args.shift().toLowerCase();
 
     if(command === 'pondervideo') {client.commands.get('pondervideo').execute(message, args, Discord);}
+    
+    if(command === 'CAMS') {client.commands.get('CAMS').execute(message, args, Discord);}
+
 
 });
 
